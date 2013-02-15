@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+
   html{
-    background-image: url('../images/grid_noise.png');
+    background-color: white;
   }
 
   body {
@@ -9,12 +11,34 @@
   }
 
 .header {
-  height: 180px;
+  
+  height: 70px;
   background-color: white;
-  box-shadow: 2px 2px 2px gray;
-  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-family: 'Iceland', cursive;
+  font-size: 60px;
+  line-height: 60px;
+  text-shadow: 2px 2px #333;
+}
+
+.header h1 .krash {
+  color: green;
+}
+
+.sidebar{
+  background-color: white;
+  margin-left: 20px;
+  min-height: 550px;
+  display: block;
+
 }
 
 .intro {
   font-size: 28px;
+}
+
+.meat{
+  background-image: url('../images/kindajean.png');
 }
