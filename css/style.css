@@ -42,12 +42,11 @@ html, body {
   min-height: 550px;
   display: block;
   border-right: 1px #ccc solid;
-  border-left: 1px #ccc solid;
 }
 
 .sidebar h3, 
 .sidebar p{
-  margin: 30px 30px 30px 10px;
+  margin: 30px 30px 30px 0px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -60,7 +59,7 @@ html, body {
 }
 
 .sidebar a{
-  margin: 30px 30px 30px 10px;
+  margin: 30px 30px 30px 0px;
   font-family: 'Oxygen', sans-serif;
   color: green;
   font-size: 16px;
@@ -72,5 +71,5 @@ html, body {
 }
 
 .meat{
-  border-right: 1px #ccc solid;
+  /*border-right: 1px #ccc solid;*/
 }
