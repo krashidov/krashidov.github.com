@@ -1,26 +1,36 @@
 @import url(http://fonts.googleapis.com/css?family=Iceland);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-  html{
-    background-color: white;
-  }
-
-  body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-  }
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px; 
+}
+.footer, .push {
+  height: 142px; 
+}
+.footer{
+  border-top: 1px #ccc solid;
+}
 
 .header {
   
   height: 70px;
   background-color: white;
+  border-bottom: 1px #ccc solid;
 }
 
 .header h1 {
-  font-family: 'Iceland', cursive;
-  font-size: 60px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
   line-height: 60px;
-  text-shadow: 2px 2px #333;
 }
 
 .header h1 .krash {
@@ -29,16 +39,38 @@
 
 .sidebar{
   background-color: white;
-  margin-left: 20px;
   min-height: 550px;
   display: block;
-
+  border-right: 1px #ccc solid;
+  border-left: 1px #ccc solid;
 }
 
-.intro {
-  font-size: 28px;
+.sidebar h3, 
+.sidebar p{
+  margin: 30px 30px 30px 10px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.sidebar h3{
+  font-size: 25px;
+}
+
+.sidebar p{
+  font-size: 16px;
+}
+
+.sidebar a{
+  margin: 30px 30px 30px 10px;
+  font-family: 'Oxygen', sans-serif;
+  color: green;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.sidebar a:hover{
+  color: black;
 }
 
 .meat{
-  background-image: url('../images/kindajean.png');
+  border-right: 1px #ccc solid;
 }
