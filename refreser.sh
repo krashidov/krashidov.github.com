@@ -1,6 +1,6 @@
 #!/bin/bash
 while [ true ]
 do
-    jekyll
-    sleep 2
+    jekyll build
+    sleep 4
 done

@@ -5,20 +5,18 @@
   <meta charset="utf-8" />
   <title>Komran Rashidov</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <!-- 1140px Grid styles for IE -->
   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
   <!-- The 1140px Grid - http://cssgrid.net/ -->
-  <link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
   
   <!-- Your styles -->
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/syntax.css" type="text/css"  />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/flatui.css" type="text/css"  />
+  <link rel="stylesheet" href="css/overrides.css" type="text/css"  />
   
   <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-  <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
   
   <link rel="icon" href="img/favicon.gif" type="image/gif"/>
   <link rel="apple-touch-icon-precomposed" href="img/appletouchicon.png"/>
@@ -31,37 +29,32 @@
 
 
 <body>
-<div class = "wrapper">
-<div class="container header">
-  <div class="row">
-    <div class="fourcol logo"><h1><span class = "krash">krash</span>idov.com</h1></div>
-  </div> <!--/row-->
-</div> <!--/container-->
+  <div class="container">
 
-<div class="container intro">
-  <div class="row meat">
-  
-    <div class="fourcol sidebar">
-      <h3>about me</h3>
-      <p>I'm Komran Rashidov. I currently reside in Boulder, CO.</p>
-      <p>I'm a Computer Science major at the University of Colorado at Boulder</p>
-      <ul>
-        <li><a href="#">Learn more about me</a></li>
-        <li><a href="http://facebook.com/koma21">Facebook</a></li>
-        <li><a href="mailto:koma@pineapplellc.com">Email</a></li>
-        <li><a href="http://github.com/krashidov">Github</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
-    </div> <!--/fourcol-->
-    
-    <div class="eightcol last intro">
-      
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-8 col-xs-12"><h1>krashidov.com</h1>
+      </div>
     </div>
+    
+    <div class="row"> 
+      <div class="col-lg-3 col-md-3 well opaque">
+        <h3>about me</h3>
+        <div class="circle">
+        </div>  
+        <p>I'm Komran Rashidov. I currently reside in Boulder, CO.</p>
+        <p>I'm a Computer Science major at the University of Colorado at Boulder</p>
+          <ul class="nav nav-pills nav-stacked nav-light">
+            <li><a href="www.linkedin.com/in/komranrashidov‎">Learn more about me</a></li>
+            <li><a href="http://facebook.com/koma21">Facebook</a></li>
+            <li><a href="mailto:komran.rashidov@colorado.edu">Email</a></li>
+            <li><a href="http://github.com/krashidov">Github</a></li>
+            <li><a href="#" onClick="alert('Email me to request a resume')">Resume</a></li>
+          </ul>
+      </div>  
+    </div>  
+      
   </div>
-</div> <!--/container-->
 
-<div class="container details">
-  </div>
 
 <script type="text/javascript">
 
@@ -76,9 +69,8 @@
   })();
 
 </script>
-<div class="push"> </div>
-</div>
-<div class="footer"></div>
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 

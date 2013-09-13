@@ -1,0 +1,35 @@
+html,body{
+  height: 100%;
+  /*background:-webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(rgba(0,0,0,0.1)), to(rgb(255, 255, 255)));
+  color: white;
+
+  /* -webkit-radial-gradient(45px 45px 45deg, circle cover, #7F8C8D 0%, #2C3E50 100%, blue 95%);
+  radial-gradient(at 50% 50%, rgb(54, 63, 72) 0%, rgb(25, 32, 37) 100%);*/
+  background: url('../images/ny.jpg');
+  color: white;
+}
+
+h1{
+}
+.opaque{
+  background: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 1px;
+  text-align: center;
+}
+
+.nav-light li a{
+  color: white;
+}
+
+.nav-light li a:hover{
+  color: black;
+}
+
+.circle{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: url('../images/me.png');
+  display: inline-block;
+}
